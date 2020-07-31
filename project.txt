@@ -6,7 +6,6 @@ The client site application should be built in React.
 There will be no data stored to this device - this would be a breach of privacy.
 
 Physical Hardware:
-
 - Rasberry PI
 - Touchscreen Monitor
 - USB Probe thomoimiter (for development applications)
