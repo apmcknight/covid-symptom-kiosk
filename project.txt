@@ -1,0 +1,14 @@
+Covid Symptom Tracker Kiosk is meant to ask users questions about the virus - similear to how they ask on the CDC's website.
+The kiosk will also be equiped with an tempeture sensor, that will scan the users temp; Matching it with the users responses before giving 
+them a "CLEAR" or "SICK" response.
+
+The client site application should be built in React.
+There will be no data stored to this device - this would be a breach of privacy.
+
+Physical Hardware:
+
+- Rasberry PI
+- Touchscreen Monitor
+- USB Probe thomoimiter (for development applications)
+- USB Non-Contact IR Digital Thomoiter (for production applications)
+
