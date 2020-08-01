@@ -1,0 +1,19 @@
+div{
+    margin-top: 13%;
+    color: red;
+}
+
+p{
+    margin-bottom: 3.5%;
+    font-weight: 800;
+}
+
+div img{ 
+    width: 10%; 
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+h1{ margin: -1%; }
+
+.HelpButtons button{ margin-right: 3%; }

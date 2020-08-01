@@ -1,5 +1,5 @@
 div{
-    margin-top: 15%;
+    margin-top: 25%;
     color: red;
 }
 
@@ -9,4 +9,5 @@ div img{
 
 p{
     margin-bottom: 3.5%;
+    font-weight: 800;
 }

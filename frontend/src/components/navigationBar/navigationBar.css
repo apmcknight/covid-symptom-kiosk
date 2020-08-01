@@ -1,0 +1,39 @@
+div{
+    margin-top: 13%;
+    color: red;
+}
+
+p{
+    margin-bottom: 3.5%;
+    font-weight: 800;
+}
+
+h1{ margin: -1%; }
+
+h3{
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    color: #333333;
+}
+
+.restartBtn img{ 
+    width: 2.5%; 
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.menuBtn img{ 
+    width: 2.5%; 
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.helpBtn img{ 
+    width: 3%; 
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
