@@ -15,6 +15,7 @@ import QuestionThree from '../screeningQuestions/questionThree';
 import QuestionFour from '../screeningQuestions/questionFour';
 import ClearScreening from '../resultClear/resultClear';
 import SickFinished from '../SickFinished/SickFinished';
+import Disclaimer from '../disclaimer/disclaimer';
 
 
 const NavigationBar = () => {
@@ -46,6 +47,7 @@ const NavigationBar = () => {
                 <Route component={QuestionFour} path="/question-four"/>
                 <Route component={ClearScreening} path="/clear-screening"/>
                 <Route component={SickFinished} path="/finished"/>
+                <Route component={Disclaimer} path="/legal"/>
             </Switch>
         </div>
     )
