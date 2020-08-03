@@ -13,7 +13,9 @@ import Menu from '../menu/menu';
 const NavigationBar = () => {
     return(
         <div className="navigation">
-            <h3>COVID SYMPTOM KIOSK &mdash; ALPHA 0.0</h3>
+            <Link to="/">
+                <h3>COVID SYMPTOM KIOSK &mdash; ALPHA 0.0</h3>
+            </Link>
 
             <Link to="/restart" className="restartBtn">
                 <img src={RestartIcon} alt="Restart"/>
