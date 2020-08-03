@@ -1,19 +1,9 @@
-div{
-    margin-top: 13%;
-    color: red;
+.helpContainer{margin-top: -7%;}
+.helpContainer h1{
+    margin-bottom: -15%;
 }
-
-p{
-    margin-bottom: 3.5%;
-    font-weight: 800;
-}
-
-div img{ 
-    width: 10%; 
-    margin: 0 auto;
-    padding: 0 auto;
-}
-
-h1{ margin: -1%; }
-
-.HelpButtons button{ margin-right: 3%; }
+.HelpButtons button{ 
+    display: block;
+    margin-top: 0 auto;
+    margin-bottom: 3%;
+ }

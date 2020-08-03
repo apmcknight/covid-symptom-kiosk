@@ -12,7 +12,7 @@ import HelpIcon from '../../assets/icons/help.svg';
 
 const helpScreen = () => {
     return(
-        <div className="app">
+        <div className="helpContainer">
             <img src={HelpIcon} alt="Help Icon"/>
             <h1>How can we help you?</h1>
             {/* TODO: Add route funcitonality to go to respective routes; when button is clicked upon. */}

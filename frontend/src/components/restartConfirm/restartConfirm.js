@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 
 const restartConfirm = () => {
     return(
-        <div className="App">
+        <div className="App restartContainer">
             <img src={restartIcon} alt="Restart Icon"/>
             <h1>Are you sure you want to restart?</h1>
             <p>Any progress will be lost, and you'll have to retake the exam to finish the check-up.</p>

@@ -1,4 +1,7 @@
-.clearContainer{ margin-bottom: 5%; }
+.clearContainer{margin-top: -5%;}
+.clearContainer{margin-bottom:5%;}
+.clearContainer h1{margin: 0 auto;}
 .clearContainer p{
-    margin: 3% 30%;
+    margin-right: 45%;
+    margin-bottom: 5%;
 }

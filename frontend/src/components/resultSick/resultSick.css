@@ -1,4 +1,7 @@
-.sickContainer{ margin-bottom: 5%; }
+.sickContainer{margin-top: -5%;}
+.sickContainer{margin-bottom:5%;}
+.sickContainer h1{margin: 0 auto;}
 .sickContainer p{
-    margin: 3% 23%;
+    margin-right: 45%;
+    margin-bottom: 5%;
 }

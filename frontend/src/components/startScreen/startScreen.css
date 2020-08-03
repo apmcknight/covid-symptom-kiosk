@@ -1,6 +1,11 @@
-div{ margin-top: 25%; }
+div{ margin-top: 20%; }
 div img{ width: 10%; }
+h1{
+    margin: 0 auto;
+    font-weight: lighter;
+    font-size: 3em;
+}
 p{
-    margin-bottom: 3.5%;
+    margin-bottom: 8%;
     font-weight: 800;
 }

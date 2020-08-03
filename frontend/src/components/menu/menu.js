@@ -9,7 +9,7 @@ const StartScreen = () => {
             <Link to="/">Home</Link>
             <Link to="/help">Get Help</Link>
             <a href="https://www.github.com/apmcknight/covid-symptom-kiosk">Report a Bug</a>
-            <Link to="/config">Configure</Link>
+            <Link to="/legal">Disclaimers</Link>
 
         </div>
     )
