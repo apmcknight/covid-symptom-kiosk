@@ -11,3 +11,9 @@ p{
     margin-bottom: 3.5%;
     font-weight: 800;
 }
+
+.menuContainer a{
+    margin-right: 5%;
+    font-size: 2em;
+    color: red;
+}

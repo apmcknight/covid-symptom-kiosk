@@ -1,14 +1,16 @@
 import React from 'react';
-import {Route, Router} from 'react-router'
-import Greeting from '../Greeting';
-import maskIcon from '../../assets/icons/mask.svg'
+import {Link} from 'react-router-dom'
 import './menu.css'
 import '../../App.css';
 
 const StartScreen = () => {
     return(
-        <div>
-            <h1>Menu component</h1>
+        <div className="menuContainer">
+            <Link to="/">Home</Link>
+            <Link to="/help">Get Help</Link>
+            <a href="https://www.github.com/apmcknight/covid-symptom-kiosk">Report a Bug</a>
+            <Link to="/config">Configure</Link>
+
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, Route, Router} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import './SickFinished';
 import '../../App.css';
 import SickIcon from '../../assets/icons/sick.svg'

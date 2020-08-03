@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, Route, Switch} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import Greeting from '../Greeting';
 import maskIcon from '../../assets/icons/mask.svg'
 import './startScreen.css';
