@@ -1,6 +1,6 @@
 div{
     margin-top: 25%;
-    color: red;
+    color: #303030;
 }
 
 div img{
@@ -11,3 +11,9 @@ p{
     margin-bottom: 3.5%;
     font-weight: 800;
 }
+
+.questionContainer{
+    margin-bottom: 10%;
+}
+
+.ScreeningMarginRight{margin-right: 20px;}

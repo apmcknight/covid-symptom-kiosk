@@ -8,6 +8,13 @@ import {Link, Route, Switch} from 'react-router-dom';
 import RestartConfirm from '../restartConfirm/restartConfirm';
 import Help from '../help/help';
 import Menu from '../menu/menu';
+import ScreeningQuestions from '../screeningQuestions/screeningQuestions';
+import PositiveResult from '../resultSick/resultSick';
+import QuestionTwo from '../screeningQuestions/questionTwo';
+import QuestionThree from '../screeningQuestions/questionThree';
+import QuestionFour from '../screeningQuestions/questionFour';
+import ClearScreening from '../resultClear/resultClear';
+import SickFinished from '../SickFinished/SickFinished';
 
 
 const NavigationBar = () => {
@@ -32,6 +39,13 @@ const NavigationBar = () => {
                 <Route component={RestartConfirm} path="/restart"/>
                 <Route component={Help} path="/help"/>
                 <Route component={Menu} path="/menu"/>
+                <Route component={ScreeningQuestions} path="/screening-questions"/>
+                <Route component={PositiveResult} path="/positive"/>
+                <Route component={QuestionTwo} path="/question-two"/>
+                <Route component={QuestionThree} path="/question-three"/>
+                <Route component={QuestionFour} path="/question-four"/>
+                <Route component={ClearScreening} path="/clear-screening"/>
+                <Route component={SickFinished} path="/finished"/>
             </Switch>
         </div>
     )

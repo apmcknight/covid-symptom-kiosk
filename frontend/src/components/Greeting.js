@@ -12,7 +12,7 @@ const Greeting = () =>{
         return(
             <h1>Good Afternoon!</h1>
         )
-    } if (hour >= 18 && hour < 23) {
+    } if (hour >= 18 && hour < 24) {
         return(
             <h1>Good Evening!</h1>
         )

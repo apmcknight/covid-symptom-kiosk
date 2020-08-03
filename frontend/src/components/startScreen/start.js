@@ -4,21 +4,14 @@ import Greeting from '../Greeting';
 import maskIcon from '../../assets/icons/mask.svg'
 import './startScreen.css';
 import '../../App.css';
-import ScreeningQuestions from '../screeningQuestions/screeningQuestions';
 
 const StartScreen = () => {
     return(
         <div>
-            <img src={maskIcon} alt=""/>
+            <img src={maskIcon} alt="Mask Icon"/>
             <Greeting/>
             <p>To get started, click the start button below.</p>
-                <Link to="screening-questions" className="PrimaryBtn">
-                    Start Check
-                </Link>
-        
-            <Switch>
-                <Route component={ScreeningQuestions} path="/screening-questions"/>
-            </Switch>
+            <Link to="/screening-questions" className="PrimaryBtn">Start Check</Link>
         </div>
     )
 }

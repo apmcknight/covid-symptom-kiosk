@@ -14,7 +14,7 @@ const restartConfirm = () => {
             <button className="PrimaryBtn">Yes, Cancel</button>
             </Link>
             {/* TODO: Link the button(s) to their respective actions. */}
-            <button className="PrimaryBtn" style={{margin: 25}}>Continue</button>
+            <Link to="/" className="PrimaryBtn" style={{margin: 25}}>Continue</Link>
         </div>
        
     
