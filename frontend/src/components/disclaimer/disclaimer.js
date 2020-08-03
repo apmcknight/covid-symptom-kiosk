@@ -1,6 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import Greeting from '../Greeting';
 import './disclaimer.css';
 import '../../App.css';
 
